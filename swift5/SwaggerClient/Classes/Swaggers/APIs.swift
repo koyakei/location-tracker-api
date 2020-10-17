@@ -7,7 +7,7 @@
 import Foundation
 
 open class SwaggerClientAPI {
-    public static var basePath = "https://virtserver.swaggerhub.com/koyakei/location-tracker/1.1"
+    public static var basePath = "https://virtserver.swaggerhub.com/koyakei/location-tracker/1.2"
     public static var credential: URLCredential?
     public static var customHeaders: [String:String] = [:]
     public static var requestBuilderFactory: RequestBuilderFactory = AlamofireRequestBuilderFactory()
